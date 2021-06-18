@@ -1,8 +1,14 @@
 [
   {
     "remote": "github",
-    "repository": "NusantaraROM-devices/device_xiaomi_sdm845-common",
+    "repository": "namaskaragusthi/device_xiaomi_sdm845-common_nad",
     "target_path": "device/xiaomi/sdm845-common",
+    "branch": "11-nad"
+  },
+  {
+    "remote": "github",
+    "repository": "namaskaragusthi/vendor_xiaomi_dipper",
+    "target_path": "vendor/xiaomi",
     "branch": "11"
   },
   {
