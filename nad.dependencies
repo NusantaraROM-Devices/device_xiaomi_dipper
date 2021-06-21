@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "namaskaragusthi/device_xiaomi_sdm845-common_nad",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "namaskaragusthi/vendor_xiaomi_dipper",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository":  "LineageOS/android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "lineage-17.1"
+  }
+]
