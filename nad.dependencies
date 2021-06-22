@@ -16,5 +16,11 @@
     "repository":  "LineageOS/android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845",
     "branch": "lineage-17.1"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-17.1"
   }
 ]
