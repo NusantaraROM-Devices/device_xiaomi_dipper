@@ -8,7 +8,6 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common NusantaraProject stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
