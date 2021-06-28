@@ -1,4 +1,4 @@
-# Device proprietary files - from dipper MIUI package V12.0.4.0.QEACNXM China Stable version
+# Device proprietary files - from dipper's MIUI package 12.5.1.0.QEACNXM CN Stable version
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
