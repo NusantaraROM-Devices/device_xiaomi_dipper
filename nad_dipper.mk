@@ -6,11 +6,16 @@
 
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common NusantaraProject stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+TARGET_USES_BLUR := true
+NAD_BUILD_TYPE := OFFICIAL
+USE_PIXEL_CHARGING := true
+TARGET_BOOT_ANIMATION_RES := 1080
+USE_AOSP_CLOCK := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_dipper
+PRODUCT_NAME := nad_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8
