@@ -12,6 +12,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Quick-Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_dipper
 PRODUCT_DEVICE := dipper
