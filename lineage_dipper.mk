@@ -15,6 +15,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Next Gen Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_dipper
 PRODUCT_DEVICE := dipper
